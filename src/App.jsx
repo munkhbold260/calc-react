@@ -1,3 +1,10 @@
+import Display from "./components/Display";
+import Buttons from "./components/Buttons";
 export default function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Display />
+      <Buttons />
+    </div>
+  );
 }

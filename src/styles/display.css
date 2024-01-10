@@ -1,0 +1,7 @@
+.display {
+  background-color: aqua;
+}
+.display input {
+  width: 200px;
+  height: 100px;
+}
