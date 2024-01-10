@@ -3,3 +3,25 @@
   margin: 0;
   padding: 0;
 }
+.mainCalc {
+  width: 500px;
+  margin: auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.buttons {
+  display: flex;
+}
+.operators button {
+  background-color: yellow;
+}
+.numbers button {
+  background-color: aqua;
+}
