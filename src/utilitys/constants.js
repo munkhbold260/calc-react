@@ -11,4 +11,5 @@ export const numberButtons = [
   "0",
   ".",
 ];
-export const operatorButtons = ["-", "+", "*", "/", "AC"];
+export const operatorButtons = ["/", "*", "-", "+", "AC"];
+export const threeButtons = [, "%", "+/-"];

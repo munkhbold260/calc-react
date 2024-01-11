@@ -3,7 +3,7 @@ import Button from "./components/Button";
 import ButtonOp from "./components/ButtonOp";
 import Screen from "./components/Screen";
 import "./styles/global.css";
-import { numberButtons, operatorButtons } from "./utils/constants";
+import { numberButtons, operatorButtons } from "./utilitys/constants";
 
 export default function App() {
   const [currentScreen, setcurrentScreen] = useState("");
@@ -28,8 +28,6 @@ export default function App() {
     } else if (todoOp == "/") {
       const result = Number(prevScreen) / Number(currentScreen) + "";
       setcurrentScreen(result);
-    } else if (todoOp == "AC") {
-      setcurrentScreen("");
     }
   }
 
